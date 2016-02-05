@@ -3,8 +3,7 @@
 
 #include "Triplet.h"
 
-typedef unsigned int uint_a;
-
+// TODO: Those functions might use some documentation.
 bool pythagorean(uint_a a, uint_a b, uint_a c);
 
 std::vector<Triplet*> tripletsGenerator(uint_a begin, uint_a end);

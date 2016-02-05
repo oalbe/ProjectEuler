@@ -14,7 +14,6 @@ bool pythagorean(uint_a a, uint_a b, uint_a c) {
 
 #include "Triplet.h"
 
-
 std::vector<Triplet*> tripletsGenerator(uint_a begin, uint_a end) {
 	std::vector<Triplet*> triplets;
 	

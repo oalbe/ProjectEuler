@@ -6,7 +6,7 @@
  * 
  * There exists exactly one Pythagorean triplet for which a + b + c = 1000.
  * Find the product abc.
- */ 
+ */
 #include <iostream>
 #include <vector>
 #include <map>
@@ -20,11 +20,12 @@ int main(int argc, char const *argv[]) {
 		{"maxFactor", 1000}
 	};
 	
+	// TODO: Make it so it does not need this weird function anymore.
 	std::vector<Triplet*> triplets = where(filter_map);
 	
 	size_t tripletsLength = triplets.size();
 	for (size_t i = 0; i < tripletsLength; ++i) {
-		std::cout << triplets[i]->product() << std::endl;
+		std::cout << "Product abc: " << triplets[i]->product() << std::endl;
 	}
     
 	return 0;
