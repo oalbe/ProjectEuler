@@ -12,6 +12,7 @@
 #include <map>
 #include <string>
 #include "Triplet.h"
+#include "utils.h"
 
 int main(int argc, char const *argv[]) {
 	std::map<std::string, uint_a> filter_map = {
